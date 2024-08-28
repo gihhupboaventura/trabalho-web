@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospedar.com</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Checkout de Reserva</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <div>
+          <a href="index.html" class="logo">Hospedar<span>.</span>com</a>
+        </div>
+        <div>
+          <a class="menu-item" href="cadastro.html">Cadastro</a>
+          <a class="menu-item" href="entrar.html">Entrar</a>
+        </div>
+      </header>
+      <p class="Finalizar">Finalizar Reserva</p><hr>
+    <main>
+        <div class="container">
+              <div class="gallery">
+              <img src="img/suite-01.jpg" alt="Imagem 1">
+              <img src="img/suite-02.jpg" alt="Imagem 2">
+              <img src="img/suite-03.jpg" alt="Imagem 3">
+          </div>
+        </div>
+    </main>
+    <div class="descricao">
+        <div class="resumo-reserva">
+            <h2>Resumo da Reserva</h2><br>
+            <p><strong>Localização:</strong> Rua das Flores, 123, Bairro Jardim das Palmeiras, Cidade Feliz, Estado Encantado</p>
+            <p><strong>Número de Hóspedes:</strong> 4</p>
+            <p><strong>Valor da Diária:</strong> R$ 350,00</p>
+            <p><strong>Avaliação do Imóvel:</strong> 4.5/5 (Baseado em 250 avaliações)</p>
+        </div>
+        <div class="formulario">
+              <form action="">
+                <div class="form-group">
+                    <label for="check-in">Data de Check-in:</label>
+                    <input type="date" id="check-in" name="check_in" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="check-out">Data de Check-out:</label>
+                    <input type="date" id="check-out" name="check_out" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="tipo-quarto">Tipo de Quarto:</label>
+                    <select id="tipo-quarto" name="tipo_quarto" required>
+                        <option value="quarto_casal">Quarto de Casal</option>
+                        <option value="quarto_2_camas">Quarto com 2 Camas</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="forma-pagamento">Forma de Pagamento:</label>
+                    <select id="forma-pagamento" name="forma_pagamento" required>
+                        <option value="cartao">Cartão</option>
+                        <option value="pix">Pix</option>
+                        <option value="boleto">Boleto</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit">Finalizar Reserva</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+  </html>
+  
+
+
+  <footer>
+    <p>Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
